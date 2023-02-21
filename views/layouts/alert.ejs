@@ -1,0 +1,17 @@
+<% if (success_msg != '') { %>
+                <div class="alert alert-success">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="tim-icons icon-simple-remove"></i>
+                  </button>
+                  <span><b> <%- success_msg %></span>
+                </div>
+<% } %>
+
+<% if (error_msg != '') { %>
+                <div class="alert alert-danger">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="tim-icons icon-simple-remove"></i>
+                  </button>
+                  <span><b> <%- error_msg %> </span>
+                </div>
+<% } %>
