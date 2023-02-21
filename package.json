@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Rest api created by Zeeoneofc",
   "main": "index.js",
-  "start": "npm run start",
+  "start": "node index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zeeoneofficial/my-rest-api.git"
