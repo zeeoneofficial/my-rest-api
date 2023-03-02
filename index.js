@@ -14,7 +14,7 @@ var express = require('express'),
     cors = require ("cors"),
     schedule = require('node-schedule');
     
-const PORT = YUOR_PORT || 8080 || 5000 || 3000
+const PORT = process.env.PORT || 8080 || 5000 || 3000
 var app = express()
 var { color } = require('./lib/color.js')
 
