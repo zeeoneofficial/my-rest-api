@@ -12,9 +12,9 @@ global.loghandler = {
 		status: 403,
         message: 'Input parameter apikey',
         creator: `${creator}`,
-        result: "error"
+        result: "Ye8WigB2cGKIT6f"
     },
-    error: {
+    Ye8WigB2cGKIT6f: {
         status: 503,
         message: 'Service Unavaible, Sedang dalam perbaikan',
         creator: `${creator}`
